@@ -1,0 +1,197 @@
+$VAR1 = [
+          {
+            'source' => 'squeeze',
+            'epoch' => '1',
+            'system' => 'apt',
+            'version' => '9.7.3.dfsg-1~squeeze11',
+            'name' => 'bind9',
+            'update' => 'bind9'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '1',
+            'system' => 'apt',
+            'version' => '9.7.3.dfsg-1~squeeze11',
+            'name' => 'bind9-doc',
+            'update' => 'bind9-doc'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '1',
+            'system' => 'apt',
+            'version' => '9.7.3.dfsg-1~squeeze11',
+            'name' => 'bind9-host',
+            'update' => 'bind9-host'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '1',
+            'system' => 'apt',
+            'version' => '9.7.3.dfsg-1~squeeze11',
+            'name' => 'bind9utils',
+            'update' => 'bind9utils'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '1',
+            'system' => 'apt',
+            'version' => '9.7.3.dfsg-1~squeeze11',
+            'name' => 'dnsutils',
+            'update' => 'dnsutils'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.4.10-4+squeeze2',
+            'name' => 'gnupg',
+            'update' => 'gnupg'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.4.10-4+squeeze2',
+            'name' => 'gpgv',
+            'update' => 'gpgv'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '1',
+            'system' => 'apt',
+            'version' => '9.7.3.dfsg-1~squeeze11',
+            'name' => 'host',
+            'update' => 'host'
+          },
+          {
+            'source' => 'squeeze-php54',
+            'system' => 'apt',
+            'version' => '5.4.17-1~dotdeb.0',
+            'name' => 'libapache2-mod-php5',
+            'update' => 'libapache2-mod-php5'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '1',
+            'system' => 'apt',
+            'version' => '9.7.3.dfsg-1~squeeze11',
+            'name' => 'libbind9-60',
+            'update' => 'libbind9-60'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '1',
+            'system' => 'apt',
+            'version' => '9.7.3.dfsg-1~squeeze11',
+            'name' => 'libdns69',
+            'update' => 'libdns69'
+          },
+          {
+            'source' => 'squeeze',
+            'system' => 'apt',
+            'version' => '1.4.5-2+squeeze1',
+            'name' => 'libgcrypt11',
+            'update' => 'libgcrypt11'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '1',
+            'system' => 'apt',
+            'version' => '9.7.3.dfsg-1~squeeze11',
+            'name' => 'libisc62',
+            'update' => 'libisc62'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '1',
+            'system' => 'apt',
+            'version' => '9.7.3.dfsg-1~squeeze11',
+            'name' => 'libisccc60',
+            'update' => 'libisccc60'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '1',
+            'system' => 'apt',
+            'version' => '9.7.3.dfsg-1~squeeze11',
+            'name' => 'libisccfg62',
+            'update' => 'libisccfg62'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '1',
+            'system' => 'apt',
+            'version' => '9.7.3.dfsg-1~squeeze11',
+            'name' => 'liblwres60',
+            'update' => 'liblwres60'
+          },
+          {
+            'source' => 'squeeze',
+            'epoch' => '1',
+            'system' => 'apt',
+            'version' => '9.7.3.dfsg-1~squeeze11',
+            'name' => 'lwresd',
+            'update' => 'lwresd'
+          },
+          {
+            'source' => 'squeeze-php54',
+            'system' => 'apt',
+            'version' => '5.4.17-1~dotdeb.0',
+            'name' => 'php5',
+            'update' => 'php5'
+          },
+          {
+            'source' => 'squeeze-php54',
+            'system' => 'apt',
+            'version' => '5.4.17-1~dotdeb.0',
+            'name' => 'php5-apc',
+            'update' => 'php5-apc'
+          },
+          {
+            'source' => 'squeeze-php54',
+            'system' => 'apt',
+            'version' => '5.4.17-1~dotdeb.0',
+            'name' => 'php5-cli',
+            'update' => 'php5-cli'
+          },
+          {
+            'source' => 'squeeze-php54',
+            'system' => 'apt',
+            'version' => '5.4.17-1~dotdeb.0',
+            'name' => 'php5-common',
+            'update' => 'php5-common'
+          },
+          {
+            'source' => 'squeeze-php54',
+            'system' => 'apt',
+            'version' => '5.4.17-1~dotdeb.0',
+            'name' => 'php5-curl',
+            'update' => 'php5-curl'
+          },
+          {
+            'source' => 'squeeze-php54',
+            'system' => 'apt',
+            'version' => '5.4.17-1~dotdeb.0',
+            'name' => 'php5-gd',
+            'update' => 'php5-gd'
+          },
+          {
+            'source' => 'squeeze-php54',
+            'system' => 'apt',
+            'version' => '5.4.17-1~dotdeb.0',
+            'name' => 'php5-mcrypt',
+            'update' => 'php5-mcrypt'
+          },
+          {
+            'source' => 'squeeze-php54',
+            'system' => 'apt',
+            'version' => '5.4.17-1~dotdeb.0',
+            'name' => 'php5-mysql',
+            'update' => 'php5-mysql'
+          },
+          {
+            'source' => 'squeeze-php54',
+            'system' => 'apt',
+            'version' => '5.4.17-1~dotdeb.0',
+            'name' => 'php5-tidy',
+            'update' => 'php5-tidy'
+          }
+        ];

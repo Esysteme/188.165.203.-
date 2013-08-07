@@ -1,0 +1,2 @@
+<device DEVNO="0x0803" TIME="1337592432" UUID="e724b571-2eec-47f3-9d15-019234b5dcbc" TYPE="swap">/dev/sda3</device>
+<device DEVNO="0x0813" TIME="1337592432" UUID="9f87110d-e408-4021-8796-ede54f1c6dc9" TYPE="swap">/dev/sdb3</device>

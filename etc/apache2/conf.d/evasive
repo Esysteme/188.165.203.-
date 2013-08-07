@@ -1,0 +1,17 @@
+DOSHashTableSize 3097
+
+#pas plus de 5 page toute les 2 secondes
+DOSPageCount 5
+DOSPageInterval 2
+
+#pas plus de 100 hit par seconde (images css etc...)
+DOSSiteCount 100
+DOSSiteInterval 1
+
+
+#blocage pendant 10 secondes
+DOSBlockingPeriod 10
+
+
+#dossier contenant les ip blacklister
+DOSLogDir "/var/log/apache2/mod_evasive"

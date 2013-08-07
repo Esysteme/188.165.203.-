@@ -1,0 +1,23 @@
+#
+# Configuration pour lequoy.com
+#
+
+<VirtualHost *:80>
+        DocumentRoot /home/www/lequoy
+        ServerName www.lequoy.com
+        
+	<Directory /home/www/lequoy>
+               Options -Indexes
+		Order Allow,Deny
+		AllowOverride None
+               Allow from all
+        </Directory>
+
+        <Directory /home/www/lequoy/files>
+                RemoveHandler .php .phtml .php3
+                RemoveType .php .phtml .php3
+                php_flag engine off
+        </Directory>
+
+</VirtualHost>
+

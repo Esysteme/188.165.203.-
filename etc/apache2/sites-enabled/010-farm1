@@ -1,0 +1,21 @@
+#
+# Configuration pour www.estrildidae.net
+#
+
+<VirtualHost *:80>
+        DocumentRoot /home/www/species/webroot/image
+        ServerName farm1.gdol.eu
+	ServerAdmin aurelien@esysteme.com
+
+	<Directory /home/www/species/webroot/image>
+		Order Allow,Deny
+		Allow from all
+                Options +FollowSymlinks
+                Options -Indexes
+		AllowOverride None
+		RemoveHandler .php .phtml .php3
+		RemoveType .php .phtml .php3
+		php_flag engine off
+	</Directory>
+
+</VirtualHost>

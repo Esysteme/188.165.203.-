@@ -1,0 +1,28 @@
+TARGETS = munin-node hddtemp fail2ban mdadm atd webmin irqbalance smartmontools apache2 postfix fuse urandom fixudev lwresd bind9 mysql sendsigs rsyslog umountnfs.sh hwclock.sh networking ifupdown umountfs lvm2 umountroot mdadm-raid halt reboot
+hddtemp: munin-node
+fail2ban: munin-node
+mdadm: munin-node
+atd: munin-node
+webmin: munin-node
+irqbalance: munin-node
+smartmontools: munin-node
+apache2: munin-node
+postfix: munin-node
+fuse: munin-node
+urandom: munin-node
+fixudev: munin-node
+lwresd: postfix apache2 munin-node
+bind9: postfix apache2 munin-node
+mysql: postfix munin-node
+sendsigs: fuse hddtemp lwresd postfix fail2ban atd munin-node apache2 mysql bind9
+rsyslog: hddtemp lwresd postfix fail2ban mdadm atd apache2 sendsigs mysql bind9 irqbalance smartmontools munin-node
+umountnfs.sh: fuse hddtemp lwresd postfix fail2ban sendsigs atd munin-node apache2 rsyslog mysql bind9
+hwclock.sh: atd rsyslog mysql munin-node
+networking: hddtemp lwresd postfix fail2ban apache2 mysql umountnfs.sh webmin bind9 munin-node
+ifupdown: hddtemp lwresd postfix fail2ban networking apache2 mysql umountnfs.sh webmin bind9 munin-node
+umountfs: ifupdown fuse hwclock.sh hddtemp lwresd urandom postfix fail2ban mdadm fixudev atd networking munin-node apache2 mysql umountnfs.sh bind9
+lvm2: umountfs munin-node
+umountroot: lvm2 umountfs munin-node
+mdadm-raid: umountfs mdadm lvm2 munin-node
+halt: umountroot munin-node
+reboot: umountroot munin-node

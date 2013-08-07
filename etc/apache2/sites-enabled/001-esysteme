@@ -1,0 +1,21 @@
+#
+# Configuration pour lequoy.com
+#
+
+<VirtualHost *:80>
+        DocumentRoot /home/www/esysteme
+        ServerName www.esysteme.com
+        
+	<Directory /home/www/esysteme>
+		Order Allow,Deny
+               Allow from all
+        </Directory>
+
+        <Directory /home/www/esysteme/files>
+                RemoveHandler .php .phtml .php3
+                RemoveType .php .phtml .php3
+                php_flag engine off
+        </Directory>
+
+</VirtualHost>
+

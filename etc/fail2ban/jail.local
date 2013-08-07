@@ -1,0 +1,9 @@
+[apache-dosevasive]
+
+enabled = true
+filter = apache-dosevasive
+action = iptables-allports[name=apache-dosevasive]
+logpath = /var/log/apache2/*/error.log
+bantime = 60
+bantime = 3600
+maxretry = 10

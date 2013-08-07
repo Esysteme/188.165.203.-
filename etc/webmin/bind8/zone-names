@@ -1,0 +1,15 @@
+base=/var/cache/bind
+zone_8=255.in-addr.arpa	9	master	*	/etc/bind/db.255
+version=3
+file_/etc/bind/named.conf.local=1358849636
+pidfile_config=/var/run/bind/run/named.pid /var/run/named.pid /var/run/named/named.pid /var/run/bind/run/named/named.pid
+zone_3=glial-framework-php.com	4	master	*	/var/lib/bind/glial-framework-php.com.hosts
+zone_5=localhost	6	master	*	/etc/bind/db.local
+zone_2=estrildidae.com	3	master	*	/var/lib/bind/estrildidae.com.hosts
+zone_0=lequoy.com	1	master	*	/var/lib/bind/lequoy.com.hosts
+pidfile=/var/run/named/named.pid
+zone_6=127.in-addr.arpa	7	master	*	/etc/bind/db.127
+zone_1=estrildidae.net	2	master	*	/var/lib/bind/estrildidae.net.hosts
+file_/etc/bind/named.conf.default-zones=1338837303
+zone_7=0.in-addr.arpa	8	master	*	/etc/bind/db.0
+zone_4=.	5	hint	*	/etc/bind/db.root

@@ -1,0 +1,59 @@
+#!/bin/bash
+### BEGIN INIT INFO
+# Provides:          fixudev
+# Required-Start:    $local_fs
+# Required-Stop:     $local_fs
+# Default-Start:     S
+# Default-Stop:      0 6
+# Short-Description: remove fixed relation between MAC address and network device name
+### END INIT INFO
+
+# remove fixed relation between MAC address and name of network device and try
+# to deactivate further generation of such files
+
+[ -e /etc/default/fixudev ] && . /etc/default/fixudev
+
+# format:
+#		 $ cat /etc/default/fixudev
+#		 # remove this file or comment the following line if you don't want
+#		 # the fixudev script to clean your persistent udev net rules files.
+#		 FIXUDEV=true
+
+case "$1" in
+start|stop|force-reload|restart)
+
+	if [[ -z "${FIXUDEV}" ]] || [[ "${FIXUDEV}" =~ [Ff][Aa][Ll][Ss][Ee] ]]; then
+		echo "udev cleaning disabled, $0 won't touch a thing. kthxbye."
+	else
+		echo "cleaning udev files from nasty persistent network rules"
+		if [[ -d  /lib/udev/rules.d/ ]]; then		# Squeeze & Co.
+			# from: man 7 udev (Squeeze)
+			#	Rules files
+			#	The udev rules are read from the files located in the default rules
+			#	directory /lib/udev/rules.d/, the custom rules directory
+			#	/etc/udev/rules.d/ and the temporary rules directory
+			#	/dev/.udev/rules.d/. All rule files are sorted and processed in lexical
+			#	order, regardless in which of these directories they live. Files in
+			#	/etc/udev/rules.d/ have precedence over files with the same name in
+			#	/lib/udev/rules.d/. This can be used to ignore a default rules file if
+			#	needed.
+			rm -fv /etc/udev/rules.d/7[0-9]-persistent-net.rules
+			for file in $(find /lib/udev/rules.d/ /dev/.udev/rules.d/ -iname \*persistent-net-generator\*)
+			do
+				FILENAME=$(basename $file)
+				echo "creating /etc/udev/rules.d/${FILENAME} to override ${file}"
+				echo '# just an empty file' > /etc/udev/rules.d/${FILENAME}
+			done
+		else	# Lenny & Co.
+			rm -fv /etc/udev/rules.d/7[0-9]-persistent-net.rules
+			[ -e /etc/udev/rules.d/75-persistent-net-generator.rules ] && \
+				mv -v /etc/udev/rules.d/75-persistent-net-generator.rules /etc/udev/rules.d/75-persistent-net-generator.rules.ovh-bak
+		fi
+	fi
+	;;
+*)
+	echo "Usage: /etc/init.d/fixudev {start|stop|force-reload|restart}"
+	;;
+esac
+
+exit 0

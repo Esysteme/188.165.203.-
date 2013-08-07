@@ -1,0 +1,23 @@
+TARGETS = rsyslog killprocs bootlogs hddtemp lwresd bind9 mysql fail2ban mdadm atd webmin single irqbalance smartmontools dbus ssh apache2 postfix cron rsync munin-node stop-bootlogd rmnologin rc.local
+INTERACTIVE = apache2
+hddtemp: rsyslog
+lwresd: rsyslog
+bind9: rsyslog
+mysql: rsyslog
+fail2ban: rsyslog
+mdadm: rsyslog
+atd: rsyslog
+webmin: rsyslog
+single: killprocs bootlogs
+irqbalance: rsyslog
+smartmontools: rsyslog
+dbus: rsyslog
+ssh: rsyslog
+apache2: rsyslog lwresd bind9
+postfix: rsyslog lwresd bind9 mysql
+cron: rsyslog lwresd bind9
+rsync: rsyslog lwresd bind9
+munin-node: hddtemp rsyslog lwresd postfix bind9 mysql fail2ban mdadm atd apache2 webmin bootlogs irqbalance smartmontools cron rsync dbus ssh
+stop-bootlogd: hddtemp rsyslog lwresd postfix bind9 mysql fail2ban mdadm atd apache2 webmin bootlogs irqbalance smartmontools cron rsync dbus ssh
+rmnologin: hddtemp rsyslog lwresd postfix bind9 mysql fail2ban mdadm atd apache2 webmin bootlogs irqbalance smartmontools cron rsync dbus ssh
+rc.local: rsyslog hddtemp lwresd postfix bind9 mysql fail2ban mdadm atd apache2 webmin bootlogs irqbalance smartmontools cron rsync dbus ssh

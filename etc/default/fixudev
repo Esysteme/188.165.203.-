@@ -1,0 +1,3 @@
+# remove this file or comment the following line if you don't want
+# the fixudev script to clean your persistent udev net rules files.
+FIXUDEV=true

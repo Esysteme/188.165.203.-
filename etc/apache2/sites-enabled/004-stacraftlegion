@@ -1,0 +1,13 @@
+#
+# Configuration pour starcraftlegion.com
+#
+
+<VirtualHost *:80>
+        DocumentRoot /home/www/clan-sl
+        ServerName www.starcraftlegion.com
+        
+	<Directory /home/www/clan-sl>
+               Order Allow,Deny
+               Allow from all
+        </Directory>
+</VirtualHost>
