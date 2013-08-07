@@ -1,0 +1,514 @@
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name                                Version                      Description
++++-===================================-============================-==========================================================================
+ii  acpi                                1.5-2                        displays information on ACPI devices
+ii  adduser                             3.112+nmu2                   add and remove users and groups
+ii  apache2                             2.2.16-6+squeeze11           Apache HTTP Server metapackage
+ii  apache2-mpm-prefork                 2.2.16-6+squeeze11           Apache HTTP Server - traditional non-threaded model
+ii  apache2-utils                       2.2.16-6+squeeze11           utility programs for webservers
+ii  apache2.2-bin                       2.2.16-6+squeeze11           Apache HTTP Server common binary files
+ii  apache2.2-common                    2.2.16-6+squeeze11           Apache HTTP Server common files
+ii  apt                                 0.8.10.3+squeeze1            Advanced front-end for dpkg
+ii  apt-listchanges                     2.85.7+squeeze1              package change history notification tool
+ii  apt-show-versions                   0.16+squeeze1                lists available package versions with distribution
+ii  apt-utils                           0.8.10.3+squeeze1            APT utility programs
+ii  aptitude                            0.6.3-3.2+squeeze1           terminal-based package manager (terminal interface only)
+ii  at                                  3.1.12-1+squeeze1            Delayed job execution and batch processing
+ii  base-files                          6.0squeeze7                  Debian base system miscellaneous files
+ii  base-passwd                         3.5.22                       Debian base system master password and group files
+ii  bash                                4.1-3                        The GNU Bourne Again SHell
+ii  bash-completion                     1:1.2-3                      programmable completion for the bash shell
+ii  bc                                  1.06.95-2                    The GNU bc arbitrary precision calculator language
+ii  bind9                               1:9.7.3.dfsg-1~squeeze10     Internet Domain Name Server
+ii  bind9-doc                           1:9.7.3.dfsg-1~squeeze10     Documentation for BIND
+ii  bind9-host                          1:9.7.3.dfsg-1~squeeze10     Version of 'host' bundled with BIND 9.X
+ii  bind9utils                          1:9.7.3.dfsg-1~squeeze10     Utilities for BIND
+ii  binutils                            2.20.1-16                    The GNU assembler, linker and binary utilities
+ii  bison                               1:2.4.1.dfsg-3               A parser generator that is compatible with YACC
+ii  bsdmainutils                        8.0.13                       collection of more utilities from FreeBSD
+ii  bsdutils                            1:2.17.2-9                   Basic utilities from 4.4BSD-Lite
+ii  btrfs-tools                         0.19+20100601-3              Checksumming Copy on Write Filesystem utilities
+ii  busybox                             1:1.17.1-8                   Tiny utilities for small and embedded systems
+ii  bzip2                               1.0.5-6+squeeze1             high-quality block-sorting file compressor - utilities
+ii  ca-certificates                     20090814+nmu3squeeze1        Common CA certificates
+ii  chkrootkit                          0.49-4                       rootkit detector
+ii  cmake                               2.8.2+dfsg.1-0+squeeze1      a cross-platform, open-source make system
+ii  cmake-data                          2.8.2+dfsg.1-0+squeeze1      CMake data files (modules, templates and documentation)
+ii  consolekit                          0.4.1-4                      framework for defining and tracking users, sessions and seats
+ii  coreutils                           8.5-1                        GNU core utilities
+ii  cpio                                2.11-4                       GNU cpio -- a program to manage archives of files
+ii  cpp                                 4:4.4.5-1                    The GNU C preprocessor (cpp)
+ii  cpp-4.4                             4.4.5-8                      The GNU C preprocessor
+ii  cron                                3.0pl1-116                   process scheduling daemon
+ii  curl                                7.21.0-2.1+squeeze4          Get a file from an HTTP, HTTPS or FTP server
+ii  dash                                0.5.5.1-7.4                  POSIX-compliant shell
+ii  dbconfig-common                     1.8.46+squeeze.0             common framework for packaging database applications
+ii  dbus                                1.2.24-4+squeeze2            simple interprocess messaging system
+ii  dbus-x11                            1.2.24-4+squeeze2            simple interprocess messaging system (X11 deps)
+ii  dc                                  1.06.95-2                    The GNU dc arbitrary precision reverse-polish calculator
+ii  debconf                             1.5.36.1                     Debian configuration management system
+ii  debconf-i18n                        1.5.36.1                     full internationalization support for debconf
+ii  debian-archive-keyring              2010.08.28+squeeze1          GnuPG archive keys of the Debian archive
+ii  debian-faq                          4.0.4+nmu1                   The Debian FAQ
+ii  debianutils                         3.4                          Miscellaneous utilities specific to Debian
+ii  defoma                              0.11.11                      Debian Font Manager -- automatic font configuration framework
+ii  diffutils                           1:3.0-1                      File comparison utilities
+ii  discover                            2.1.2-5                      hardware identification system
+ii  discover-data                       2.2010.10.18                 Data lists for Discover hardware detection system
+ii  dlint                               1.4.0-7                      Checks dns zone information using nameserver lookups
+ii  dmidecode                           2.9-1.2                      Dump Desktop Management Interface data
+ii  dmsetup                             2:1.02.48-5                  The Linux Kernel Device Mapper userspace library
+ii  dnsutils                            1:9.7.3.dfsg-1~squeeze10     Clients provided with BIND
+ii  doc-debian                          4.0.2                        Debian Project documentation and other documents
+ii  doc-linux-text                      2008.08-1                    Linux HOWTOs and FAQs in ASCII format
+ii  dos2unix                            5.0-2                        convert text file line endings between CRLF and LF
+ii  dosfstools                          3.0.9-1                      utilities for making and checking MS-DOS FAT filesystems
+ii  dpkg                                1.15.8.13                    Debian package management system
+ii  e2fslibs                            1.41.12-4stable1             ext2/ext3/ext4 file system libraries
+ii  e2fsprogs                           1.41.12-4stable1             ext2/ext3/ext4 file system utilities
+ii  eject                               2.1.5+deb1+cvs20081104-7.1   ejects CDs and operates CD-Changers under Linux
+ii  emacsen-common                      1.4.22                       Common facilities for all emacsen
+ii  esound-common                       0.2.41-8                     Enlightened Sound Daemon - Common files
+ii  fail2ban                            0.8.4-3+squeeze2             bans IPs that cause multiple authentication errors
+ii  file                                5.04-5+squeeze2              Determines file type using "magic" numbers
+ii  findutils                           4.4.2-1+b1                   utilities for finding files--find, xargs
+ii  fontconfig                          2.8.0-2.1                    generic font configuration library - support binaries
+ii  fontconfig-config                   2.8.0-2.1                    generic font configuration library - configuration
+ii  ftp                                 0.17-23                      The FTP client
+ii  fuse-utils                          2.8.4-1.1                    Filesystem in USErspace (utilities)
+ii  g++                                 4:4.4.5-1                    The GNU C++ compiler
+ii  g++-4.4                             4.4.5-8                      The GNU C++ compiler
+ii  gawk                                1:3.1.7.dfsg-5               GNU awk, a pattern scanning and processing language
+ii  gcc                                 4:4.4.5-1                    The GNU C compiler
+ii  gcc-4.4                             4.4.5-8                      The GNU C compiler
+ii  gcc-4.4-base                        4.4.5-8                      The GNU Compiler Collection (base package)
+ii  gconf2                              2.28.1-6                     GNOME configuration database system (support tools)
+ii  gconf2-common                       2.28.1-6                     GNOME configuration database system (common files)
+ii  geoip-database                      1.4.7~beta6+dfsg-1           IP lookup command line tools that use the GeoIP library (country database)
+ii  gettext-base                        0.18.1.1-3                   GNU Internationalization utilities for the base system
+ii  git                                 1:1.7.2.5-3                  fast, scalable, distributed revision control system
+ii  gnome-mime-data                     2.18.0-1                     base MIME and Application database for GNOME.
+ii  gnupg                               1.4.10-4+squeeze1            GNU privacy guard - a free PGP replacement
+ii  gpgv                                1.4.10-4+squeeze1            GNU privacy guard - signature verification tool
+ii  grep                                2.6.3-3                      GNU grep, egrep and fgrep
+ii  groff-base                          1.20.1-10                    GNU troff text-formatting system (base system components)
+ii  grub-common                         1.98+20100804-14+squeeze1    GRand Unified Bootloader, version 2 (common files)
+ii  grub-pc                             1.98+20100804-14+squeeze1    GRand Unified Bootloader, version 2 (PC/BIOS version)
+ii  gvfs                                1.6.4-3                      userspace virtual filesystem - server
+ii  gzip                                1.3.12-9+squeeze1            GNU compression utilities
+ii  hddtemp                             0.3-beta15-46                hard drive temperature monitoring utility
+ii  hdparm                              9.32-1                       tune hard disk parameters for high performance
+ii  heirloom-mailx                      12.4-2                       feature-rich BSD mail(1)
+ii  hicolor-icon-theme                  0.12-1                       default fallback theme for FreeDesktop.org icon themes
+ii  host                                1:9.7.3.dfsg-1~squeeze10     Transitional package
+ii  hostname                            3.04                         utility to set/show the host name or domain name
+ii  iftop                               0.17-16                      displays bandwidth usage information on an network interface
+ii  ifupdown                            0.6.10                       high level tools to configure network interfaces
+ii  info                                4.13a.dfsg.1-6               Standalone GNU Info documentation browser
+ii  initscripts                         2.88dsf-13.1+squeeze1        scripts for initializing and shutting down the system
+ii  insserv                             1.14.0-2                     Tool to organize boot sequence using LSB init.d script dependencies
+ii  install-info                        4.13a.dfsg.1-6               Manage installed documentation in info format
+ii  installation-report                 2.44                         system installation report
+ii  iproute                             20100519-3                   networking and traffic control tools
+ii  iptables                            1.4.8-3                      administration tools for packet filtering and NAT
+ii  iputils-ping                        3:20100418-3                 Tools to test the reachability of network hosts
+ii  irqbalance                          0.56-1                       Daemon to balance interrupts for SMP systems
+ii  isc-dhcp-client                     4.1.1-P1-15+squeeze8         ISC DHCP client
+ii  isc-dhcp-common                     4.1.1-P1-15+squeeze8         common files used by all the isc-dhcp* packages
+ii  iso-codes                           3.23-1                       ISO language, territory, currency, script codes and their translations
+ii  javascript-common                   7                            Base support for javascript library packages
+ii  less                                436-1                        pager program similar to more
+ii  libacl1                             2.2.49-4                     Access control list shared library
+ii  libaio1                             0.3.107-7                    Linux kernel AIO access library - shared library
+ii  libapache2-mod-evasive              1.10.1-1                     evasive module to minimize HTTP DoS or brute force attacks
+ii  libapache2-mod-php5                 5.4.16-1~dotdeb.0            server-side, HTML-embedded scripting language (Apache 2 module)
+ii  libapr1                             1.4.2-6+squeeze4             The Apache Portable Runtime Library
+ii  libaprutil1                         1.3.9+dfsg-5                 The Apache Portable Runtime Utility Library
+ii  libaprutil1-dbd-sqlite3             1.3.9+dfsg-5                 The Apache Portable Runtime Utility Library - SQLite3 Driver
+ii  libaprutil1-ldap                    1.3.9+dfsg-5                 The Apache Portable Runtime Utility Library - LDAP Driver
+ii  libapt-pkg-perl                     0.1.24+b1                    Perl interface to libapt-pkg
+ii  libarchive1                         2.8.4.forreal-1+squeeze2     Single library to read/write tar, cpio, pax, zip, iso9660, etc.
+ii  libart-2.0-2                        2.3.21-1                     Library of functions for 2D graphics - runtime files
+ii  libasound2                          1.0.23-2.1                   shared library for ALSA applications
+ii  libatasmart4                        0.17+git20100219-2           ATA S.M.A.R.T. reading and parsing library
+ii  libatk1.0-0                         1.30.0-1                     The ATK accessibility toolkit
+ii  libatk1.0-data                      1.30.0-1                     Common files for the ATK accessibility toolkit
+ii  libattr1                            1:2.4.44-2                   Extended attribute shared library
+ii  libaudiofile0                       0.2.6-8                      Open-source version of SGI's audiofile library
+ii  libauthen-pam-perl                  0.16-2                       Perl interface to PAM library
+ii  libavahi-client3                    0.6.27-2+squeeze1            Avahi client library
+ii  libavahi-common-data                0.6.27-2+squeeze1            Avahi common data files
+ii  libavahi-common3                    0.6.27-2+squeeze1            Avahi common library
+ii  libavahi-glib1                      0.6.27-2+squeeze1            Avahi glib integration library
+ii  libbind9-60                         1:9.7.3.dfsg-1~squeeze10     BIND9 Shared Library used by BIND
+ii  libblkid1                           2.17.2-9                     block device id library
+ii  libbonobo2-0                        2.24.3-1                     Bonobo CORBA interfaces library
+ii  libbonobo2-common                   2.24.3-1                     Bonobo CORBA interfaces library -- support files
+ii  libbonoboui2-0                      2.24.3-1                     The Bonobo UI library
+ii  libbonoboui2-common                 2.24.3-1                     The Bonobo UI library -- common files
+ii  libboost-iostreams1.42.0            1.42.0-4                     Boost.Iostreams Library
+ii  libbsd0                             0.2.0-1                      utility functions from BSD systems - shared library
+ii  libbz2-1.0                          1.0.5-6+squeeze1             high-quality block-sorting file compressor library - runtime
+ii  libc-bin                            2.11.3-4                     Embedded GNU C Library: Binaries
+ii  libc-dev-bin                        2.11.3-4                     Embedded GNU C Library: Development binaries
+ii  libc6                               2.11.3-4                     Embedded GNU C Library: Shared libraries
+ii  libc6-dev                           2.11.3-4                     Embedded GNU C Library: Development Libraries and Header Files
+ii  libc6-i386                          2.11.3-4                     Embedded GNU C Library: 32-bit shared libraries for AMD64
+ii  libc6-pic                           2.11.3-4                     Embedded GNU C Library: PIC archive library
+ii  libcairo2                           1.8.10-6                     The Cairo 2D vector graphics library
+ii  libcap-ng0                          0.6.4-1                      An alternate posix capabilities library
+ii  libcap2                             1:2.19-3                     support for getting/setting POSIX.1e capabilities
+ii  libck-connector0                    0.4.1-4                      ConsoleKit libraries
+ii  libcomerr2                          1.41.12-4stable1             common error description library
+ii  libcups2                            1.4.4-7+squeeze3             Common UNIX Printing System(tm) - Core library
+ii  libcurl3                            7.21.0-2.1+squeeze4          Multi-protocol file transfer library (OpenSSL)
+ii  libcurl3-gnutls                     7.21.0-2.1+squeeze4          Multi-protocol file transfer library (GnuTLS)
+ii  libcwidget3                         0.5.16-3                     high-level terminal interface library for C++ (runtime files)
+ii  libdate-manip-perl                  6.11-1                       module for manipulating dates
+ii  libdatrie1                          0.2.4-1                      Double-array trie library
+ii  libdb4.6                            4.6.21-16                    Berkeley v4.6 Database Libraries [runtime]
+ii  libdb4.7                            4.7.25-9                     Berkeley v4.7 Database Libraries [runtime]
+ii  libdb4.8                            4.8.30-2                     Berkeley v4.8 Database Libraries [runtime]
+ii  libdbd-mysql-perl                   4.016-1                      Perl5 database interface to the MySQL database
+ii  libdbi-perl                         1.612-1                      Perl Database Interface (DBI)
+ii  libdbi0                             0.8.2-3                      Database Independent Abstraction Layer for C
+ii  libdbus-1-3                         1.2.24-4+squeeze2            simple interprocess messaging system
+ii  libdbus-glib-1-2                    0.88-2.1+squeeze1            simple interprocess messaging system (GLib-based shared library)
+ii  libdevmapper1.02.1                  2:1.02.48-5                  The Linux Kernel Device Mapper userspace library
+ii  libdiscover2                        2.1.2-5                      hardware identification library
+ii  libdns66                            1:9.7.1.dfsg.P2-2            DNS Shared Library used by BIND
+ii  libdns69                            1:9.7.3.dfsg-1~squeeze10     DNS Shared Library used by BIND
+ii  libdrm-intel1                       2.4.21-1~squeeze3            Userspace interface to intel-specific kernel DRM services -- runtime
+ii  libdrm-radeon1                      2.4.21-1~squeeze3            Userspace interface to radeon-specific kernel DRM services -- runtime
+ii  libdrm2                             2.4.21-1~squeeze3            Userspace interface to kernel DRM services -- runtime
+ii  libedit2                            2.11-20080614-2              BSD editline and history libraries
+ii  libeggdbus-1-0                      0.6-1                        D-Bus bindings for GObject
+ii  libept1                             1.0.4                        High-level library for managing Debian package information
+ii  liberror-perl                       0.17-1                       Perl module for error/exception handling in an OO-ish way
+ii  libesd0                             0.2.41-8                     Enlightened Sound Daemon - Shared libraries
+ii  libevent-1.4-2                      1.4.13-stable-1              An asynchronous event notification library
+ii  libexpat1                           2.0.1-7+squeeze1             XML parsing C library - runtime library
+ii  libfam0                             2.7.0-17                     Client library to control the FAM daemon
+ii  libfont-freetype-perl               0.03-1                       Read font files and render glyphs from Perl using FreeType2
+ii  libfontconfig1                      2.8.0-2.1                    generic font configuration library - runtime
+ii  libfontenc1                         1:1.0.5-2                    X11 font encoding library
+ii  libfreetype6                        2.4.2-2.1+squeeze4           FreeType 2 font engine, shared library files
+ii  libfuse2                            2.8.4-1.1                    Filesystem in USErspace library
+ii  libgail18                           2.20.1-2                     GNOME Accessibility Implementation Library -- shared libraries
+ii  libgc1c2                            1:6.8-2                      conservative garbage collector for C and C++
+ii  libgcc1                             1:4.4.5-8                    GCC support library
+ii  libgconf2-4                         2.28.1-6                     GNOME configuration database system (shared libraries)
+ii  libgcrypt11                         1.4.5-2                      LGPL Crypto library - runtime library
+ii  libgdbm3                            1.8.3-9                      GNU dbm database routines (runtime version)
+ii  libgdu0                             2.30.1-2                     GObject based Disk Utility Library
+ii  libgeoip1                           1.4.7~beta6+dfsg-1           A non-DNS IP-to-country resolver library
+ii  libgl1-mesa-dri                     7.7.1-6                      A free implementation of the OpenGL API -- DRI modules
+ii  libgl1-mesa-glx                     7.7.1-6                      A free implementation of the OpenGL API -- GLX runtime
+ii  libglade2-0                         1:2.6.4-1                    library to load .glade files at runtime
+ii  libglib2.0-0                        2.24.2-1                     The GLib library of C routines
+ii  libgmp3c2                           2:4.3.2+dfsg-1               Multiprecision arithmetic library
+ii  libgnome-keyring0                   2.30.1-1                     GNOME keyring services library
+ii  libgnome2-0                         2.30.0-1                     The GNOME library - runtime files
+ii  libgnome2-common                    2.30.0-1                     The GNOME library - common files
+ii  libgnomecanvas2-0                   2.30.1-1                     A powerful object-oriented display - runtime files
+ii  libgnomecanvas2-common              2.30.1-1                     A powerful object-oriented display - common files
+ii  libgnomeui-0                        2.24.3-1                     The GNOME libraries (User Interface) - runtime files
+ii  libgnomeui-common                   2.24.3-1                     The GNOME libraries (User Interface) - common files
+ii  libgnomevfs2-0                      1:2.24.3-1                   GNOME Virtual File System (runtime libraries)
+ii  libgnomevfs2-common                 1:2.24.3-1                   GNOME Virtual File System (common files)
+ii  libgnomevfs2-extra                  1:2.24.3-1                   GNOME Virtual File System (extra modules)
+ii  libgnutls26                         2.8.6-1+squeeze2             the GNU TLS library - runtime library
+ii  libgomp1                            4.4.5-8                      GCC OpenMP (GOMP) support library
+ii  libgpg-error0                       1.6-1                        library for common error values and messages in GnuPG components
+ii  libgpm2                             1.20.4-3.3                   General Purpose Mouse - shared library
+ii  libgssapi-krb5-2                    1.8.3+dfsg-4squeeze7         MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii  libgssglue1                         0.1-4                        mechanism-switch gssapi library
+ii  libgssrpc4                          1.8.3+dfsg-4squeeze7         MIT Kerberos runtime libraries - GSS enabled ONCRPC
+ii  libgtk2.0-0                         2.20.1-2                     The GTK+ graphical user interface library
+ii  libgtk2.0-bin                       2.20.1-2                     The programs for the GTK+ graphical user interface library
+ii  libgtk2.0-common                    2.20.1-2                     Common files for the GTK+ graphical user interface library
+ii  libgudev-1.0-0                      164-3                        GObject-based wrapper library for libudev
+ii  libhal-storage1                     0.5.14-3                     Hardware Abstraction Layer - shared library for storage devices
+ii  libhal1                             0.5.14-3                     Hardware Abstraction Layer - shared library
+ii  libhtml-template-perl               2.9-2                        module for using HTML Templates with Perl
+ii  libice6                             2:1.0.6-2                    X11 Inter-Client Exchange library
+ii  libidl0                             0.8.14-0.1                   library for parsing CORBA IDL files
+ii  libidn11                            1.15-2                       GNU Libidn library, implementation of IETF IDN specifications
+ii  libio-multiplex-perl                1.10-1                       object-oriented interface to select() for Perl
+ii  libio-pty-perl                      1:1.08-1                     Perl module for pseudo tty IO
+ii  libipc-shareable-perl               0.60-8                       module to access IPC shared memory segments through perl
+ii  libisc60                            1:9.7.1.dfsg.P2-2            ISC Shared Library used by BIND
+ii  libisc62                            1:9.7.3.dfsg-1~squeeze10     ISC Shared Library used by BIND
+ii  libisccc60                          1:9.7.3.dfsg-1~squeeze10     Command Channel Library used by BIND
+ii  libisccfg62                         1:9.7.3.dfsg-1~squeeze10     Config File Handling Library used by BIND
+ii  libjasper1                          1.900.1-7+squeeze1           The JasPer JPEG-2000 runtime library
+ii  libjpeg62                           6b1-1                        The Independent JPEG Group's JPEG runtime library (version 6.2)
+ii  libjs-mootools                      1.2.4.0~debian1-1            compact JavaScript framework
+ii  libk5crypto3                        1.8.3+dfsg-4squeeze7         MIT Kerberos runtime libraries - Crypto Library
+ii  libkadm5clnt-mit7                   1.8.3+dfsg-4squeeze7         MIT Kerberos runtime libraries - Administration Clients
+ii  libkadm5srv-mit7                    1.8.3+dfsg-4squeeze7         MIT Kerberos runtime libraries - KDC and Admin Server
+ii  libkdb5-4                           1.8.3+dfsg-4squeeze7         MIT Kerberos runtime libraries - Kerberos database
+ii  libkeyutils1                        1.4-1                        Linux Key Management Utilities (library)
+ii  libkrb5-3                           1.8.3+dfsg-4squeeze7         MIT Kerberos runtime libraries
+ii  libkrb5support0                     1.8.3+dfsg-4squeeze7         MIT Kerberos runtime libraries - Support library
+ii  libldap-2.4-2                       2.4.23-7.3                   OpenLDAP libraries
+ii  liblocale-gettext-perl              1.05-6                       Using libc functions for internationalization in Perl
+ii  liblockfile1                        1.08-4                       NFS-safe locking library, includes dotlockfile program
+ii  liblog-dispatch-perl                2.22-1                       Dispatches messages to multiple Log::Dispatch::* objects
+ii  liblog-log4perl-perl                1.29-1                       A Perl port of the widely popular log4j logging package.
+ii  libltdl7                            2.2.6b-2                     A system independent dlopen wrapper for GNU libtool
+ii  liblwres60                          1:9.7.3.dfsg-1~squeeze10     Lightweight Resolver Library used by BIND
+ii  liblzma2                            5.0.0-2                      XZ-format compression library
+ii  libmagic1                           5.04-5+squeeze2              File type determination library using "magic" numbers
+ii  libmcrypt4                          2.5.8-3.1                    De-/Encryption Library
+ii  libmpfr4                            3.0.0-2                      multiple precision floating-point computation
+ii  libmysqlclient16                    5.1.66-0+squeeze1            MySQL database client library
+ii  libncurses5                         5.7+20100313-5               shared libraries for terminal handling
+ii  libncursesw5                        5.7+20100313-5               shared libraries for terminal handling (wide character support)
+ii  libnet-cidr-perl                    0.13-1                       Manipulate IPv4/IPv6 netblocks in CIDR notation
+ii  libnet-daemon-perl                  0.43-1                       Perl module for building portable Perl daemons easily
+ii  libnet-server-perl                  0.97-1                       An extensible, general perl server engine
+ii  libnet-snmp-perl                    5.2.0-4                      Script SNMP connections
+ii  libnet-ssleay-perl                  1.36-1                       Perl module for Secure Sockets Layer (SSL)
+ii  libnewt0.52                         0.52.11-1                    Not Erik's Windowing Toolkit - text mode windowing with slang
+ii  libnfnetlink0                       1.0.0-1                      Netfilter netlink library
+ii  libnfsidmap2                        0.23-2                       An nfs idmapping library
+ii  libnss-lwres                        0.93-6+b1                    NSS module for using bind9's lwres as a naming service
+ii  libntfs-3g75                        1:2010.3.6-1                 ntfs-3g filesystem in userspace (FUSE) library
+ii  libntfs10                           2.0.0-1+b1                   library that provides common NTFS access functions
+ii  libonig2                            5.9.1-1                      Oniguruma regular expressions library
+ii  liborbit2                           1:2.14.18-0.1                libraries for ORBit2 - a CORBA ORB
+ii  libpam-ck-connector                 0.4.1-4                      ConsoleKit PAM module
+ii  libpam-modules                      1.1.1-6.1+squeeze1           Pluggable Authentication Modules for PAM
+ii  libpam-runtime                      1.1.1-6.1+squeeze1           Runtime support for the PAM library
+ii  libpam0g                            1.1.1-6.1+squeeze1           Pluggable Authentication Modules library
+ii  libpango1.0-0                       1.28.3-1+squeeze2            Layout and rendering of internationalized text
+ii  libpango1.0-common                  1.28.3-1+squeeze2            Modules and configuration files for the Pango
+ii  libparams-validate-perl             0.93-1                       Perl module to validate parameters to Perl method/function calls
+ii  libparted0debian1                   2.3-5                        The GNU Parted disk partitioning shared library
+ii  libpcap0.8                          1.1.1-2+squeeze1             system interface for user-level packet capture
+ii  libpci3                             1:3.1.7-6                    Linux PCI Utilities (shared library)
+ii  libpcre3                            8.02-1.1                     Perl 5 Compatible Regular Expression Library - runtime files
+ii  libpixman-1-0                       0.16.4-1                     pixel-manipulation library for X and cairo
+ii  libplrpc-perl                       0.2020-2                     Perl extensions for writing PlRPC servers and clients
+ii  libpng12-0                          1.2.44-1+squeeze4            PNG library - runtime
+ii  libpolkit-agent-1-0                 0.96-4+squeeze2              PolicyKit Authentication Agent API
+ii  libpolkit-backend-1-0               0.96-4+squeeze2              PolicyKit backend API
+ii  libpolkit-gobject-1-0               0.96-4+squeeze2              PolicyKit Authorization API
+ii  libpopt0                            1.16-1                       lib for parsing cmdline parameters
+ii  libqdbm14                           1.8.77-4                     QDBM Database Libraries [runtime]
+ii  libreadline5                        5.2-7                        GNU readline and history libraries, run-time libraries
+ii  libreadline6                        6.1-3                        GNU readline and history libraries, run-time libraries
+ii  librpcsecgss3                       0.19-2                       allows secure rpc communication using the rpcsec_gss protocol
+ii  librrd4                             1.4.3-1                      time-series data storage and display system (runtime library)
+ii  librrds-perl                        1.4.3-1                      time-series data storage and display system (Perl interface, shared)
+ii  librtmp0                            2.3-2                        toolkit for RTMP streams (shared library)
+ii  libsasl2-2                          2.1.23.dfsg1-7               Cyrus SASL - authentication abstraction library
+ii  libsasl2-modules                    2.1.23.dfsg1-7               Cyrus SASL - pluggable authentication modules
+ii  libselinux1                         2.0.96-1                     SELinux runtime shared libraries
+ii  libsepol1                           2.0.41-1                     SELinux library for manipulating binary security policies
+ii  libsgutils2-2                       1.29-1                       utilities for devices using the SCSI command set (shared libraries)
+ii  libsigc++-2.0-0c2a                  2.2.4.2-1                    type-safe Signal Framework for C++ - runtime
+ii  libslang2                           2.2.2-4                      The S-Lang programming library - runtime version
+ii  libsm6                              2:1.1.1-1                    X11 Session Management library
+ii  libsmbclient                        2:3.5.6~dfsg-3squeeze9       shared library for communication with SMB/CIFS servers
+ii  libsqlite3-0                        3.7.3-1                      SQLite 3 shared library
+ii  libss2                              1.41.12-4stable1             command-line interface parsing library
+ii  libssh2-1                           1.2.6-1                      SSH2 client-side library
+ii  libssl0.9.8                         0.9.8o-4squeeze14            SSL shared libraries
+ii  libstdc++6                          4.4.5-8                      The GNU Standard C++ Library v3
+ii  libstdc++6-4.4-dev                  4.4.5-8                      The GNU Standard C++ Library v3 (development files)
+ii  libt1-5                             5.1.2-3+squeeze1             Type 1 font rasterizer library - runtime
+ii  libtalloc2                          2.0.1-1                      hierarchical pool based memory allocator
+ii  libtasn1-3                          2.7-1+squeeze+1              Manage ASN.1 structures (runtime)
+ii  libtext-charwidth-perl              0.04-6                       get display widths of characters on the terminal
+ii  libtext-iconv-perl                  1.7-2                        converts between character sets in Perl
+ii  libtext-wrapi18n-perl               0.06-7                       internationalized substitute of Text::Wrap
+ii  libthai-data                        0.1.14-2                     Data files for Thai language support library
+ii  libthai0                            0.1.14-2                     Thai language support library
+ii  libtidy-0.99-0                      20091223cvs-1                HTML syntax checker and reformatter - library
+ii  libtiff4                            3.9.4-5+squeeze9             Tag Image File Format (TIFF) library
+ii  libtokyocabinet8                    1.4.37-6                     Tokyo Cabinet Database Libraries [runtime]
+ii  libudev0                            164-3                        libudev shared library
+ii  libusb-0.1-4                        2:0.1.12-16                  userspace USB programming library
+ii  libuuid1                            2.17.2-9                     Universally Unique ID library
+ii  libwbclient0                        2:3.5.6~dfsg-3squeeze9       Samba winbind client library
+ii  libwrap0                            7.6.q-19                     Wietse Venema's TCP wrappers library
+ii  libx11-6                            2:1.3.3-4+squeeze1           X11 client-side library
+ii  libx11-data                         2:1.3.3-4+squeeze1           X11 client-side library
+ii  libxapian22                         1.2.3-2                      Search engine library
+ii  libxau6                             1:1.0.6-1                    X11 authorisation library
+ii  libxaw7                             2:1.0.7-1                    X11 Athena Widget library
+ii  libxcb-atom1                        0.3.6-1                      utility libraries for X C Binding -- atom
+ii  libxcb-render-util0                 0.3.6-1                      utility libraries for X C Binding -- render-util
+ii  libxcb-render0                      1.6-1+squeeze1               X C Binding, render extension
+ii  libxcb1                             1.6-1+squeeze1               X C Binding
+ii  libxcomposite1                      1:0.4.2-1                    X11 Composite extension library
+ii  libxcursor1                         1:1.1.10-2+squeeze1          X cursor management library
+ii  libxdamage1                         1:1.1.3-1                    X11 damaged region extension library
+ii  libxdmcp6                           1:1.0.3-2                    X11 Display Manager Control Protocol library
+ii  libxext6                            2:1.1.2-1+squeeze1           X11 miscellaneous extension library
+ii  libxfixes3                          1:4.0.5-1+squeeze1           X11 miscellaneous 'fixes' extension library
+ii  libxfont1                           1:1.4.1-3                    X11 font rasterisation library
+ii  libxft2                             2.1.14-2                     FreeType-based font drawing library for X
+ii  libxi6                              2:1.3-8                      X11 Input extension library
+ii  libxinerama1                        2:1.1-3+squeeze1             X11 Xinerama extension library
+ii  libxml2                             2.7.8.dfsg-2+squeeze7        GNOME XML library
+ii  libxmlrpc-c3                        1.06.27-1.1                  A lightweight RPC library based on XML and HTTP for C and C++
+ii  libxmu6                             2:1.0.5-2                    X11 miscellaneous utility library
+ii  libxmuu1                            2:1.0.5-2                    X11 miscellaneous micro-utility library
+ii  libxpm4                             1:3.5.8-1                    X11 pixmap library
+ii  libxrandr2                          2:1.3.0-3+squeeze1           X11 RandR extension library
+ii  libxrender1                         1:0.9.6-1+squeeze1           X Rendering Extension client library
+ii  libxt6                              1:1.0.7-1+squeeze1           X11 toolkit intrinsics library
+ii  libxtst6                            2:1.1.0-3+squeeze1           X11 Testing -- Record extension library
+ii  libxv1                              2:1.0.5-1+squeeze1           X11 Video extension library
+ii  libxxf86dga1                        2:1.1.1-2+squeeze1           X11 Direct Graphics Access extension library
+ii  libxxf86vm1                         1:1.1.0-2+squeeze1           X11 XFree86 video mode extension library
+ii  libyaml-syck-perl                   1.12-1                       Perl module providing a fast, lightweight YAML loader and dumper
+ii  linux-libc-dev                      2.6.32-48squeeze3            Linux support headers for userspace development
+ii  locales                             2.11.3-4                     Embedded GNU C Library: National Language (locale) data [support]
+ii  login                               1:4.1.4.2+svn3283-2+squeeze1 system login tools
+ii  logrotate                           3.7.8-6                      Log rotation utility
+ii  lsb-base                            3.2-23.2squeeze1             Linux Standard Base 3.2 init script functionality
+ii  lsb-release                         3.2-23.2squeeze1             Linux Standard Base version reporting utility
+ii  lsof                                4.81.dfsg.1-1                List open files
+ii  lvm2                                2.02.66-5                    The Linux Logical Volume Manager
+ii  lwresd                              1:9.7.3.dfsg-1~squeeze10     Lightweight Resolver Daemon
+ii  lynx                                2.8.8dev.5-1                 Text-mode WWW Browser (transitional package)
+ii  lynx-cur                            2.8.8dev.5-1                 Text-mode WWW Browser with NLS support (development version)
+ii  m4                                  1.4.14-3                     a macro processing language
+ii  make                                3.81-8                       An utility for Directing compilation.
+ii  man-db                              2.5.7-8                      on-line manual pager
+ii  manpages                            3.27-1                       Manual pages about using a GNU/Linux system
+ii  manpages-cs                         0.18.20090209-2              Czech version of the manual pages
+ii  manpages-de                         0.7-1                        German manpages
+ii  manpages-dev                        3.27-1                       Manual pages about using GNU/Linux for development
+ii  manpages-es                         1.55-9                       Spanish man pages
+ii  manpages-fr                         3.27fr1.4-1                  French version of the manual pages about using GNU/Linux
+ii  manpages-it                         2.80-3                       Italian version of the manual pages
+ii  manpages-pl                         20060617-3                   Polish man pages
+ii  manpages-pt                         20040726-4                   Portuguese Versions of the Manual Pages
+ii  mawk                                1.3.3-15                     a pattern scanning and text processing language
+ii  mdadm                               3.1.4-1+8efb9d1+squeeze1     tool to administer Linux MD arrays (software RAID)
+ii  mime-support                        3.48-1                       MIME files 'mime.types' & 'mailcap', and support programs
+ii  mlocate                             0.22.2-1                     quickly find files on the filesystem based on their name
+ii  module-init-tools                   3.12-2                       tools for managing Linux kernel modules
+ii  mount                               2.17.2-9                     Tools for mounting and manipulating filesystems
+ii  mtools                              4.0.12-1                     Tools for manipulating MSDOS files
+ii  mtr-tiny                            0.75-2                       Full screen ncurses traceroute tool
+ii  munin                               1.4.5-3                      network-wide graphing framework (grapher/gatherer)
+ii  munin-common                        1.4.5-3                      network-wide graphing framework (common)
+ii  munin-node                          1.4.5-3                      network-wide graphing framework (node)
+ii  munin-plugins-extra                 1.4.5-3                      network-wide graphing framework (user contributed plugins for node)
+ii  mysql-client-5.5                    5.5.31-1~dotdeb.0            MySQL database client binaries
+ii  mysql-client-core-5.5               5.5.31-1~dotdeb.0            MySQL database core client binaries
+ii  mysql-common                        5.5.31-1~dotdeb.0            MySQL database common files, e.g. /etc/mysql/my.cnf
+ii  mysql-server-5.5                    5.5.31-1~dotdeb.0            MySQL database server binaries and system database setup
+ii  mysql-server-core-5.5               5.5.31-1~dotdeb.0            MySQL database server binaries
+ii  nano                                2.2.4-1                      small, friendly text editor inspired by Pico
+ii  ncurses-base                        5.7+20100313-5               basic terminal type definitions
+ii  ncurses-bin                         5.7+20100313-5               terminal-related programs and man pages
+ii  ncurses-term                        5.7+20100313-5               additional terminal type definitions
+ii  net-tools                           1.60-23                      The NET-3 networking toolkit
+ii  netbase                             4.45                         Basic TCP/IP networking system
+ii  netcat-traditional                  1.10-38                      TCP/IP swiss army knife
+ii  ntfs-3g                             1:2010.3.6-1                 read-write NTFS driver for FUSE
+ii  ntfsprogs                           2.0.0-1+b1                   tools for doing neat things in NTFS partitions from Linux
+ii  ntpdate                             1:4.2.6.p2+dfsg-1+b1         client for setting system time from NTP servers
+ii  openssh-blacklist                   0.4.1                        list of default blacklisted OpenSSH RSA and DSA keys
+ii  openssh-blacklist-extra             0.4.1                        list of non-default blacklisted OpenSSH RSA and DSA keys
+ii  openssh-client                      1:5.5p1-6+squeeze3           secure shell (SSH) client, for secure access to remote machines
+ii  openssh-server                      1:5.5p1-6+squeeze3           secure shell (SSH) server, for secure access from remote machines
+ii  openssl                             0.9.8o-4squeeze14            Secure Socket Layer (SSL) binary and related cryptographic tools
+ii  os-prober                           1.42                         utility to detect other OSes on a set of drives
+ii  p7zip-full                          9.04~dfsg.1-1                7z and 7za file archivers with high compression ratio
+ii  passwd                              1:4.1.4.2+svn3283-2+squeeze1 change and administer password and group data
+ii  patch                               2.6-2                        Apply a diff file to an original
+ii  pciutils                            1:3.1.7-6                    Linux PCI Utilities
+ii  perl                                5.10.1-17squeeze6            Larry Wall's Practical Extraction and Report Language
+ii  perl-base                           5.10.1-17squeeze6            minimal Perl system
+ii  perl-modules                        5.10.1-17squeeze6            Core Perl modules
+ii  php5                                5.4.16-1~dotdeb.0            server-side, HTML-embedded scripting language (metapackage)
+ii  php5-apc                            5.4.16-1~dotdeb.0            apc module for php5
+ii  php5-cli                            5.4.16-1~dotdeb.0            command-line interpreter for the php5 scripting language
+ii  php5-common                         5.4.16-1~dotdeb.0            Common files for packages built from the php5 source
+ii  php5-curl                           5.4.16-1~dotdeb.0            CURL module for php5
+ii  php5-gd                             5.4.16-1~dotdeb.0            GD module for php5
+ii  php5-mcrypt                         5.4.16-1~dotdeb.0            MCrypt module for php5
+ii  php5-mysql                          5.4.16-1~dotdeb.0            MySQL module for php5
+ii  php5-tidy                           5.4.16-1~dotdeb.0            tidy module for php5
+rc  php5-xdebug                         5.3.14-1~dotdeb.0            xdebug module for php5
+ii  phpmyadmin                          4:3.3.7-7                    MySQL web administration tool
+ii  policykit-1                         0.96-4+squeeze2              framework for managing administrative policies and privileges
+ii  policykit-1-gnome                   0.96-3                       GNOME authentication agent for PolicyKit-1
+ii  postfix                             2.7.1-1+squeeze1             High-performance mail transport agent
+ii  procps                              1:3.2.8-9squeeze1            /proc file system utilities
+ii  psmisc                              22.11-1                      utilities that use the proc file system
+ii  python                              2.6.6-3+squeeze7             interactive high-level object-oriented language (default version)
+ii  python-apt                          0.7.100.1+squeeze1           Python interface to libapt-pkg
+ii  python-apt-common                   0.7.100.1+squeeze1           Python interface to libapt-pkg (locales)
+ii  python-central                      0.6.16+nmu1                  register and build utility for Python packages
+ii  python-minimal                      2.6.6-3+squeeze7             minimal subset of the Python language (default version)
+ii  python-reportbug                    4.12.6                       Python modules for interacting with bug tracking systems
+ii  python-support                      1.0.10                       automated rebuilding support for Python modules
+ii  python2.6                           2.6.6-8+b1                   An interactive high-level object-oriented language (version 2.6)
+ii  python2.6-minimal                   2.6.6-8+b1                   A minimal subset of the Python language (version 2.6)
+ii  readline-common                     6.1-3                        GNU readline and history libraries, common files
+ii  reiserfsprogs                       1:3.6.21-1                   User-level tools for ReiserFS filesystems
+ii  reportbug                           4.12.6                       reports bugs in the Debian distribution
+ii  rrdtool                             1.4.3-1                      time-series data storage and display system (programs)
+ii  rsync                               3.0.7-2                      fast remote file copy program (like rcp)
+ii  rsyslog                             4.6.4-2                      enhanced multi-threaded syslogd
+ii  rtmpdump                            2.3-2                        A small dumper for media content streamed over the RTMP protocol
+ii  screen                              4.0.3-14                     terminal multiplexor with VT100/ANSI terminal emulation
+ii  sed                                 4.2.1-7                      The GNU sed stream editor
+ii  sensible-utils                      0.0.4                        Utilities for sensible alternative selection
+ii  sgml-base                           1.26+nmu1                    SGML infrastructure and SGML catalog file support
+ii  shared-mime-info                    0.71-4                       FreeDesktop.org shared MIME database and spec
+ii  smartmontools                       5.39.1+svn3124-2             control and monitor storage systems using S.M.A.R.T.
+ii  ssl-cert                            1.0.28                       simple debconf wrapper for OpenSSL
+ii  sysv-rc                             2.88dsf-13.1+squeeze1        System-V-like runlevel change mechanism
+ii  sysvinit                            2.88dsf-13.1+squeeze1        System-V-like init utilities
+ii  sysvinit-utils                      2.88dsf-13.1+squeeze1        System-V-like utilities
+ii  tar                                 1.23-3                       GNU version of the tar archiving utility
+ii  tcpd                                7.6.q-19                     Wietse Venema's TCP wrapper utilities
+ii  tcpdump                             4.1.1-1                      A powerful tool for network monitoring and data acquisition
+ii  telnet                              0.17-36                      The telnet client
+ii  texinfo                             4.13a.dfsg.1-6               Documentation system for on-line information and printed output
+ii  time                                1.7-23.1                     The GNU time program for measuring cpu resource usage
+ii  traceroute                          1:2.0.15-1                   Traces the route taken by packets over an IPv4/IPv6 network
+ii  tree                                1.5.3-1                      displays directory tree, in color
+ii  ttf-dejavu                          2.31-1                       Metapackage to pull in ttf-dejavu-core and ttf-dejavu-extra
+ii  ttf-dejavu-core                     2.31-1                       Vera font family derivate with additional characters
+ii  ttf-dejavu-extra                    2.31-1                       Vera font family derivate with additional characters
+ii  tzdata                              2012g-0squeeze1              time zone and daylight-saving time data
+ii  ucf                                 3.0025+nmu1                  Update Configuration File: preserve user changes to config files.
+ii  udev                                164-3                        /dev/ and hotplug management daemon
+ii  udisks                              1.0.1+git20100614-3          abstraction for enumerating block devices
+ii  unzip                               6.0-4                        De-archiver for .zip files
+ii  usbutils                            0.87-5squeeze1               Linux USB utilities
+ii  util-linux                          2.17.2-9                     Miscellaneous system utilities
+ii  vim                                 2:7.2.445+hg~cb94c42c0e1a-1  Vi IMproved - enhanced vi editor
+ii  vim-common                          2:7.2.445+hg~cb94c42c0e1a-1  Vi IMproved - Common files
+ii  vim-runtime                         2:7.2.445+hg~cb94c42c0e1a-1  Vi IMproved - Runtime files
+ii  vim-tiny                            2:7.2.445+hg~cb94c42c0e1a-1  Vi IMproved - enhanced vi editor - compact version
+ii  vlan                                1.9-3                        user mode programs to enable VLANs on your ethernet devices
+ii  w3m                                 0.5.2-9                      WWW browsable pager with excellent tables/frames support
+ii  wamerican                           6-3                          American English dictionary words for /usr/share/dict
+ii  webmin                              1.600                        web-based administration interface for Unix systems
+ii  wget                                1.12-2.1                     retrieves files from the web
+ii  whiptail                            0.52.11-1                    Displays user-friendly dialog boxes from shell scripts
+ii  whois                               5.0.10                       an intelligent whois client
+ii  wwwconfig-common                    0.2.1                        Debian web auto configuration
+ii  x-ttcidfont-conf                    32                           TrueType and CID fonts configuration for X
+ii  x11-common                          1:7.5+8+squeeze1             X Window System (X.Org) infrastructure
+ii  x11-utils                           7.5+4                        X11 utilities
+ii  xfonts-encodings                    1:1.0.3-1                    Encodings for X.Org fonts
+ii  xfonts-utils                        1:7.5+2                      X Window System font utility programs
+ii  xml-core                            0.13                         XML infrastructure and XML catalog file support
+ii  xz-utils                            5.0.0-2                      XZ-format compression utilities
+ii  zip                                 3.0-3                        Archiver for .zip files
+ii  zlib1g                              1:1.2.3.4.dfsg-3             compression library - runtime
